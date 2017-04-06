@@ -32,7 +32,7 @@ num.of.item <- lapply(meals, length)
 
 # Write a function that adds pizza to every meal
 AddPizza <- function(list){
-  list <- c(list, "pizza")
+  return (c(list, "pizza"))
 }
 
 # Add pizza to every meal!
